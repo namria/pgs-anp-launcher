@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<userRegistry version="1.0" xmlns="http://www.geoserver.org/security/users">
+  <users>
+    <user enabled="true" name="ghelo" password="plain:geoserver" />
+    <user enabled="true" name="gerie" password="plain:gerie" />
+    <user enabled="true" name="fat" password="plain:fat" />
+    <user enabled="true" name="admin" password="plain:geoserver" />
+  </users>
+  <groups>
+    <group enabled="true" name="NODE_PORTAL_ADMIN">
+      <member username="ghelo" />
+      <member username="gerie" />
+      <member username="fat" />
+      <member username="admin" />
+    </group>
+  </groups>
+</userRegistry>
